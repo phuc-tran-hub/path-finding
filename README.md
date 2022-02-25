@@ -6,7 +6,7 @@
 
 ### Description
 
-The program creates a path from a start to a goal using BFS (breadth-first search). Since this is not a predefined adjencent neighbors sort of map that we saw in CS1, we treated adjacent neighbors to that current node as the index one space away from the node in a 2-D array. The program then uses that path to convert to distances and angles for a sequence of poses. The calculations to find the angle and the new pose was similar to the implementation that we saw in PA2. When we want to publish the markers, indicating the path the robot wants to take, we had to define a series of parameters that were needed for a Marker() message.
+The program creates a path from a start to a goal using BFS (breadth-first search). Since this is not a predefined adjencent neighbors sort of map that we saw in my introductary class, we treated adjacent neighbors to that current node as the index one space away from the node in a 2-D array. The program then uses that path to convert to distances and angles for a sequence of poses. When we want to publish the markers, indicating the path the robot wants to take, we had to define a series of parameters that were needed for a Marker() message.
 
 ### Evaluation
 
